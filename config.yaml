@@ -1,9 +1,7 @@
 baseurl: /
-author:
-  name: "Hyeseon Eom"
 languageCode: en-US
 title: Hyeseon Eom
-theme: hugo-lithium
+theme: hugo-lithum
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
