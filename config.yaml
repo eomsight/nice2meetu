@@ -1,7 +1,7 @@
 baseurl: /
 languageCode: en-US
 title: Hyeseon Eom
-theme: hugo-lithum
+theme: PaperMod
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
