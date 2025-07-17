@@ -1,6 +1,8 @@
 baseurl: /
+author:
+  name: "Hyeseon Eom"
 languageCode: en-US
-title: A Hugo website
+title: Hyeseon Eom
 theme: hugo-lithium
 ignoreFiles:
   - \.Rmd$
