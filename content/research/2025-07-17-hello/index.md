@@ -5,6 +5,7 @@ slug: hello
 categories: ["Research"]
 tags: [Urban Ecology]
 image: "1paper.png"
+thumbnail: "images/thumbs/me.jpg"
 ---
 
 ![My first first-author paper](1paper.png)
