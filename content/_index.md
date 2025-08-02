@@ -1,5 +1,6 @@
 ---
-title: "Welcome"
+title: "Home"
+type: "home"
 ---
 
 <div style="display: flex; align-items: center; gap: 2rem;">
