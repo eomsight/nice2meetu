@@ -13,21 +13,19 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 1
-    - name: "Researc"
-      url: "/research/"
+    - name: "Interests"
+      url: "/interests/"
       weight: 2
-    - name: "Landscape Design"
-      url: "/landscape-design//"
+    - name: "Research"
+      url: "/research/"
       weight: 3
-    - name: "Drawing"
-      url: "/drawing/"
+    - name: "Design"
+      url: "/design/"
       weight: 4
+    - name: "Publications"
+      url: "/publications/"
+      weight: 5
 params:
-  homeInfoParams:
-    Title: "Hi, I'm Hyeseon 👋"
-    Content: >
-      Landscape designer, urban ecology researcher, and more.
-      Welcome to my portfolio!
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: A website built through Hugo and blogdown.
