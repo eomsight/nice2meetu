@@ -31,7 +31,7 @@ params:
     ### 안녕하세요, 엄혜선입니다!  
     도시생태계·데이터 기반 설계를 연구합니다.  
     Landscape architect & Researcher based in Seoul.
-  feedSections: ["posts", "design"]    # 갤러리에 보여줄 섹션 폴더
+  feedSections: ["posts", "research"]    # 갤러리에 보여줄 섹션 폴더
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: A website built through Hugo and blogdown.

@@ -1,0 +1,33 @@
+{{/* layouts/home.html – custom landing page that plugs into the coder theme's baseof.html */}}
+{{ define "main" }}
+<main class="container mx-auto px-4 py-12">
+  <section class="hero flex flex-col lg:flex-row items-center justify-center gap-8 mb-16">
+    <div class="hero-img w-48 h-48 rounded-full overflow-hidden shadow-lg">
+      <img src="/{{ .Site.Params.profilePhoto }}" alt="{{ .Site.Title }} profile" class="w-full h-full object-cover">
+    </div>
+    <div class="hero-text max-w-xl prose lg:prose-lg">
+      {{ .Site.Params.intro | markdownify }}
+    </div>
+  </section>
+
+  {{/* Thumbnail gallery – loop over sections listed in .Site.Params.feedSections */}}
+  {{ $sections := .Site.Params.feedSections }}
+  {{ $pages := slice }}
+  {{ range $sec := $sections }}
+    {{ $pages = $pages | append ( where .Site.RegularPages "Section" $sec ) }}
+  {{ end }}
+  {{ $pages = $pages | uniq | first 12 }}
+
+  <section class="grid gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    {{ range $pages }}
+      <a href="{{ .RelPermalink }}" class="block group">
+        {{ $thumb := .Params.thumbnail }}
+        <div class="aspect-square bg-gray-100 overflow-hidden rounded-lg shadow-md">
+          <img src="/{{ $thumb }}" alt="{{ .Title }} thumbnail" class="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105">
+        </div>
+        <h3 class="mt-2 text-center font-semibold text-sm">{{ .Title }}</h3>
+      </a>
+    {{ end }}
+  </section>
+</main>
+{{ end }}
