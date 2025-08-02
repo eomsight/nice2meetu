@@ -10,17 +10,17 @@ permalinks:
   post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: "Research"
-      url: "/research/"
+    - name: "About"
+      url: "/about/"
       weight: 1
-    - name: "Landscape Design"
-      url: "/landscape-design/"
+    - name: "Researc"
+      url: "/research/"
       weight: 2
+    - name: "Landscape Design"
+      url: "/landscape-design//"
+      weight: 3
     - name: "Drawing"
       url: "/drawing/"
-      weight: 3
-    - name: "Happiness"
-      url: "/happiness/"
       weight: 4
 params:
   homeInfoParams:
