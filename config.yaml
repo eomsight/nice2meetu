@@ -1,7 +1,7 @@
 baseurl: /
 languageCode: en-US
 title: Hyeseon Eom
-theme: Coder
+theme: coder
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
