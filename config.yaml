@@ -1,7 +1,7 @@
 baseurl: /
 languageCode: en-US
 title: Hyeseon Eom
-theme: coder
+theme: hugo-coder
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
@@ -23,6 +23,11 @@ menu:
       url: "/happiness/"
       weight: 4
 params:
+  homeInfoParams:
+    Title: "Hi, I'm Hyeseon 👋"
+    Content: >
+      Landscape designer, urban ecology researcher, and more.
+      Welcome to my portfolio!
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: A website built through Hugo and blogdown.
